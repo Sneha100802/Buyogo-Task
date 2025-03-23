@@ -16,5 +16,6 @@ This project processes hotel booking data, extracts insights, and enables **Retr
 - Fields include **hotel name, country, reservation status, room type, lead time, revenue, and more**.
 
 ---
-
+## Working
+The **Hotel Booking Analytics & Retrieval-Augmented Question Answering (RAG) System** processes hotel booking data to extract key insights and enable natural language querying using an LLM-powered API. The project involves **data preprocessing**, including handling missing values and formatting inconsistencies, followed by **analytics generation** such as revenue trends, cancellation rates, booking lead time distribution, and geographical booking patterns. For question answering, the system uses **FAISS** and **Sentence Transformers** to generate embeddings from booking data, allowing similarity-based retrieval of relevant records. An **LLM-powered Q&A pipeline** then provides natural language responses. The project also includes a **Flask API** with endpoints for retrieving analytics and answering user queries. This API can be deployed locally or on cloud platforms like **AWS, GCP, Azure, or Heroku**, making it a scalable and efficient solution for hotel data analysis and intelligent querying. 🚀
 
